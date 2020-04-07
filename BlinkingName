@@ -1,0 +1,242 @@
+// Blink an LED according to your first name in morse code...
+// Name == RAHUL
+
+int led1 = D6; 
+
+int led2 = D7; 
+
+void setup() {
+
+	pinMode(led1, OUTPUT);
+	pinMode(led2, OUTPUT);
+
+}
+
+
+void loop() {
+	// R===========================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// R===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(3000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// R==================================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// A================================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// A===============================
+	
+		
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(3000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// H===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// H===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// H===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// H===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// U===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// U===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// U===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(3000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// L===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// L===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(3000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// L===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+	// L===============================
+	
+	digitalWrite(led1, HIGH);
+	digitalWrite(led2, HIGH);
+
+
+	delay(1000);
+
+
+	digitalWrite(led1, LOW);
+	digitalWrite(led2, LOW);
+
+	delay(1000);
+	
+}
